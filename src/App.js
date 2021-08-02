@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+      <div>
+        <h1>Testing stuff s</h1>
+        <h3>Email</h3>
+        <a href="mailto:someone@yoursite.com">test@gmail.com</a>
+        <hr />
+        <h3>Phone</h3>
+        <a href="tel:0831231231">0831231231</a>
+        <hr />
+        <h3>Google maps</h3>
+        <a href="https://www.google.com/maps/@-33.8913753,18.5151581,15z">
+          Open maps
         </a>
-      </header>
+        <hr />
+      </div>
     </div>
   );
 }
