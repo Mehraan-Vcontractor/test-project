@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h1>Testing stuff s</h1>
+        <h1>Testing stuffs</h1>
         <h3>Email</h3>
         <a href="mailto:someone@yoursite.com">test@gmail.com</a>
         <hr />
