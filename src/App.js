@@ -14,7 +14,15 @@ function App() {
         <hr />
         <h3>Google maps</h3>
         <a href="https://www.google.com/maps/@-33.8913753,18.5151581,15z">
-          Open maps
+          Open Google maps
+        </a>
+        <hr />
+        <h3>Apple maps</h3>
+        <a
+          href="
+        http://maps.apple.com/?q=Entelect&sll=-33.8913753,18.5151581&z=10&t=s"
+        >
+          Open Apple maps
         </a>
         <hr />
       </div>
