@@ -7,7 +7,7 @@ function App() {
       <div>
         <h1>Testing stuffs</h1>
         <h3>Email</h3>
-        <a href="mailto:someone@yoursite.com">test@gmail.com</a>
+        <a href="mailto:test@gmail.com">test@gmail.com</a>
         <hr />
         <h3>Phone</h3>
         <a href="tel:0831231231">0831231231</a>
