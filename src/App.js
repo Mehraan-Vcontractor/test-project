@@ -16,14 +16,15 @@ function mapsSelector() {
 }
 
 function App() {
-  const vodaLat = "-33.8913708";
-  const vodaLong = "18.5129694";
-  const vodaName = "Entelect+-+Cape+Town+Office";
+  const vodaLat = "-29.085214";
+  const vodaLong = "26.159576";
+  const vodaName = "CHATZ - TALKABOUT CELLULAR";
+
+
 
   const [long, setLong] = useState("");
   const [lat, setLat] = useState("");
-  const [err, setErr] = useEffect("");
-
+  //const [err, setErr] = useEffect("");
   useEffect(() => {
     findPosition();
   },[]);
@@ -34,7 +35,7 @@ function App() {
       setLat(position.coords.latitude.toString())
       setLong(position.coords.longitude.toString())
     }, error => {
-        setErr(locationError(error))
+        //setErr(locationError(error))
         console.error(error)
     }, {
       timeout: 2000,
@@ -63,7 +64,7 @@ function App() {
         <h3>Apple maps</h3>
         <a
           href={`
-        http://maps.apple.com/?q=${navodaNameme}&sll=${vodaLat},${vodaLong}&z=10&t=s`}
+        http://maps.apple.com/?q=${vodaName}&sll=${vodaLat},${vodaLong}&z=10&t=s`}
         >
           Open Apple maps
         </a>
