@@ -20,11 +20,9 @@ function App() {
   const vodaLong = "26.159576";
   const vodaName = "CHATZ - TALKABOUT CELLULAR";
 
-
-
   const [long, setLong] = useState("");
   const [lat, setLat] = useState("");
-  //const [err, setErr] = useEffect("");
+  const [err, setErr] = useState("");
   useEffect(() => {
     findPosition();
   },[]);
