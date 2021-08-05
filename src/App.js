@@ -33,7 +33,7 @@ function App() {
       setLat(position.coords.latitude.toString())
       setLong(position.coords.longitude.toString())
     }, error => {
-        //setErr(locationError(error))
+        setErr(locationError(error))
         console.error(error)
     }, {
       timeout: 2000,
